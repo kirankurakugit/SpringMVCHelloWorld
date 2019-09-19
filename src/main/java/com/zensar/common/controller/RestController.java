@@ -12,7 +12,7 @@ import java.time.temporal.ChronoUnit;
 import java.time.format.DateTimeFormatter;
 @Controller
 @RequestMapping("/username")
-public class MovieController {
+public class RestController {
 
 	@RequestMapping(value="/{name}", method = RequestMethod.GET)
 	public String getMovie(@PathVariable String name, ModelMap model) {
