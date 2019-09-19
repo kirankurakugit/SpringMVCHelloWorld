@@ -1,4 +1,4 @@
-package com.mkyong.common.controller;
+package com.zensar.common.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
